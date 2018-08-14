@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_marginStart="10sp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BookInformation"
+        android:textSize="30sp"
+        android:layout_marginStart="50sp"
+        android:layout_marginBottom="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/NewBooks"
+        android:layout_marginStart="100sp"
+        android:id="@+id/newBooks"
+        android:layout_marginBottom="20sp"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bookISBN"
+        android:layout_marginBottom="20sp"
+        android:layout_marginStart="50sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/showbookdetails"
+        android:layout_marginStart="100sp"
+        android:id="@+id/showBooksDetails"
+        android:layout_marginBottom="20sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buybook"
+        android:layout_marginStart="100sp"
+        android:id="@+id/buyBook"
+        android:layout_marginBottom="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bookInformation"
+        android:text="@string/bookinfo"
+        android:layout_marginBottom="20sp"
+        android:textStyle="italic"
+        android:textColor="@color/colorAccent"/>
+
+</LinearLayout>

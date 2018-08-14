@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ShivRana_FinalTest_003</string>
+    <string name="BookInformation">Book Information</string>
+    <string name="NewBooks">New Books</string>
+    <string name="showbookdetails">Show Book Details</string>
+    <string name="buybook">Buy a Book</string>
+    <string name="bookinfo">book informaition</string>
+</resources>
